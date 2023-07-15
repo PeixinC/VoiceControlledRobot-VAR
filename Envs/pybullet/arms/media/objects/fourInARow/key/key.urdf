@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot name="key">
+
+  <link name="key">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.1143 0.0381 0.0381"/>
+      </geometry>
+      <material name="solid_color">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.1143 0.0381 0.0381"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.2"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001"/>  <!-- I = m * l^2 / 6 -->
+    </inertial>
+  </link>
+
+</robot>

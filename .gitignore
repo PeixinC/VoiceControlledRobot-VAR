@@ -1,0 +1,11 @@
+**/__pycache__
+**.pyc
+.idea/
+/commonMedia/**
+!/commonMedia/**/
+/data/**
+!/data/**/
+!.gitkeep
+
+
+

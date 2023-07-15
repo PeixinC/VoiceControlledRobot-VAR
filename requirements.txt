@@ -1,0 +1,14 @@
+pandas~=1.5.3
+numpy~=1.23.5
+tqdm~=4.64.1
+opencv-python~=4.7.0.72
+sounddevice~=0.4.6
+gym~=0.17.2
+matplotlib~=3.7.1
+ai2thor==3.5.0
+scipy~=1.10.1
+pybullet~=3.2.5
+torchaudio~=0.12.1
+scikit-learn~=1.2.1
+python-speech-features==0.6
+pytorch
